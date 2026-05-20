@@ -3,7 +3,9 @@ package com.victor.bbqcalculator.service;
 import com.victor.bbqcalculator.dto.CalculationRequest;
 import com.victor.bbqcalculator.dto.CalculationResponse;
 import com.victor.bbqcalculator.model.HungerLevel;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CalculationService {
 
     private static final int MEAT_GRAM_PER_ADULT = 400;
